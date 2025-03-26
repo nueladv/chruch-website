@@ -1,0 +1,91 @@
+/* style.css */
+
+/* Container Utama */
+.container {
+    max-width: 1200px;
+    margin-top: 50px;
+}
+
+/* Carousel Event */
+.carousel-item img {
+    height: 400px;
+    object-fit: cover; /* Agar gambar tidak terdistorsi */
+}
+
+/* Caption Carousel */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6); /* Translucent black background */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.carousel-caption h5 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 1.2rem;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #f8f9fa; /* Warna untuk icon control */
+}
+
+/* Button Styling */
+.btn {
+    font-weight: bold;
+    padding: 12px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+/* Button Hover */
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* Button E-Library */
+.btn-warning {
+    background-color: #e76f51;
+    border-color: #e76f51;
+}
+
+.btn-warning:hover {
+    background-color: #264653;
+    border-color: #264653;
+}
+
+/* Margin pada tombol */
+.mt-5 {
+    margin-top: 30px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        margin-top: 30px;
+    }
+
+    .btn {
+        margin-top: 10px;
+    }
+}
+
+header {
+    background-color: black;
+    height: 120px;
+}
+
+header .container {
+    height: 10%;
+}
+
+.row.justify-content-center {
+    display: flex;
+    align-items: center;
+}
+
+.col-md-6 p {
+    height: 250px; /* Sesuaikan tinggi sesuai kebutuhan */
+}

@@ -1,0 +1,145 @@
+/* style3.css */
+
+/* Container utama */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #2a9d8f;
+    color: white;
+    border-radius: 8px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Header Buttons Container */
+.header-buttons {
+    display: flex;
+    align-items: center;
+}
+
+/* Style untuk semua tombol di header */
+.header-buttons a {
+    margin-left: 10px; /* Jarak antar tombol */
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold; /* Teks tebal */
+}
+
+/* Tombol Petugas */
+.btn-petugas {
+    background-color: #4CAF50; /* Warna hijau untuk tombol Petugas */
+}
+
+.btn-petugas:hover {
+    background-color: #45a049; /* Efek hover untuk tombol Petugas */
+}
+
+/* Tombol Logout */
+.logout-button {
+    background-color: red; /* Warna merah untuk tombol Logout */
+}
+
+.logout-button:hover {
+    background-color: #c0392b; /* Efek hover untuk tombol Logout */
+}
+
+/* Form untuk menambah informasi */
+.add-info {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.add-info label {
+    font-weight: bold;
+}
+
+.add-info input,
+.add-info textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.add-info button {
+    padding: 10px 20px;
+    background-color: #2a9d8f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-info button:hover {
+    background-color: #264653;
+}
+
+/* Tabel Daftar Informasi */
+.info-list {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #2a9d8f;
+    color: white;
+}
+
+td img {
+    width: 100px;
+    height: auto;
+}
+
+/* Tombol Edit dan Hapus */
+.btn-edit,
+.btn-delete {
+    padding: 5px 10px;
+    background-color: #e76f51;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.btn-edit:hover {
+    background-color: #264653;
+}
+
+.btn-delete {
+    background-color: #e74c3c;
+}
+
+.btn-delete:hover {
+    background-color: #c0392b;
+}

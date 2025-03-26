@@ -1,0 +1,135 @@
+/* style4.css */
+
+/* Container utama */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #2a9d8f;
+    color: white;
+    border-radius: 8px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Header Buttons Container */
+.header-buttons {
+    display: flex;
+    align-items: center;
+}
+
+/* Style untuk semua tombol di header */
+.header-buttons a {
+    margin-left: 10px; /* Jarak antar tombol */
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold; /* Teks tebal */
+}
+
+/* Tombol Kembali */
+.btn-kembali {
+    background-color: #4CAF50; /* Warna hijau untuk tombol Kembali */
+}
+
+.btn-kembali:hover {
+    background-color: #45a049; /* Efek hover untuk tombol Kembali */
+}
+
+/* Form untuk upload petugas */
+.upload-petugas-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.upload-petugas-form label {
+    font-weight: bold;
+}
+
+.upload-petugas-form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.upload-petugas-form button {
+    padding: 10px 20px;
+    background-color: #2a9d8f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.upload-petugas-form button:hover {
+    background-color: #264653;
+}
+
+/* Tampilan Gambar Petugas */
+.petugas-image-container {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.petugas-image {
+    max-width: 200px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Tombol Hapus */
+.btn-hapus {
+    padding: 5px 10px;
+    background-color: #e74c3c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-hapus:hover {
+    background-color: #c0392b;
+}
+
+/* Pesan */
+.message {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.message-success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.message-error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
